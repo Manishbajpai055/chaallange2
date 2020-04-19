@@ -16,7 +16,7 @@ p, a {
 
 header {
   position: absolute;
-  display: -webkit-box;
+  display: -webkit-box;{
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
@@ -57,7 +57,7 @@ header a {
   bottom: 105%;
   z-index: -1;
   left: 41%;
-  background: url("http://manishbajpai.tk/challenge2/images/icon.jpg{");
+  background: url("http://manishbajpai.tk/challenge2/images/icon.jpg");
   background-size: 120px 120px;
   border-radius: 100%;
 }
