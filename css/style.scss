@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1, .brand-logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: normal;
+}
+p, a{
+    font-family: 'Poppins', sans-serif;
+    outline: none; 
+}
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    padding: 1.2em;
+    top: 0;
+}
+
+header a{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    outline: none; 
+    
+}
+.main-bg img {
+    position: relative;
+    background: url('/images/elena-prokofyeva-NDuPLKYRXQU-unsplash.jpg');
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    object-fit: cover;
+}
+.main-content{
+    margin-top: 6%;
+}
+
+.main-content::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    bottom: 105%;
+    z-index: -1;
+    left: 41%;
+    background: url('/images/icon.jpg') ;
+    background-size: 120px 120px;
+    border-radius: 100%;
+}
+#Capa_1{
+    background-color: red;
+}
+
+.main-content{
+        padding: 0px 10% 0px;
+        max-width: 640px;
+        justify-items: center;
+        position: absolute;
+        display: inline;
+        text-align: center;
+}
+
+.skills,  .name{
+    position: relative;
+    color: black;
+    line-height: .6em;
+    
+}
+.name{
+    font-weight: bold;
+    
+}
+.emial{
+    
+    text-align: center;
+    color: black;
+    line-height: .6em;
+    
+}
+
+.stats{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.bld{
+    font-weight: bold;
+}
+
+
+.intro{
+    position: relative;
+    color: black;
+    width: 350px;
+    font-size: 14px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    list-style: none;
+    
+    
+}
+
+.inner-nav{
+    position: relative;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;   
+    padding:1em 10 1em 10;
+    right: 10em;
+}
+.inner-nav .fol{
+    position: relative;
+    background-color: rgb(45, 115, 219);
+    padding:5 15 5 ;
+
+}
+li .fol{
+    position: relative;
+    outline: none; 
+    padding : 5 15 5; 
+    right: 14em;
+    list-style: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    &:hover , :focus{
+        outline: none; 
+        background-color: rgb(0, 102, 255);
+        color: rgb(255, 255, 255);
+        border-radius: 2px;
+        transition: 0.3s;
+    }
+}
+.image-container{
+    position: relative;    
+    float: right;
+    right: -16rem;
+    bottom: -80px;
+}
+
+a { 
+    outline:0 none !important;
+}
+
+.row img{
+
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;;
+    padding:.4em;
+    transition: 0.3s;
+    
+    &:hover{
+        border-radius: 0px;
+        width: 220px;
+        height: 120px;
+        transition: 0.3s;
+    }
+}
+input{
+    background-color: rgba($color: #000000, $alpha: 0);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 5 15 5;
+    border-color: blue;
+    &.active{
+        border-color: blue !important;
+    }
+}
