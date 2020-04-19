@@ -16,7 +16,7 @@ p, a {
 
 header {
   position: absolute;
-  display: -webkit-box;{
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
